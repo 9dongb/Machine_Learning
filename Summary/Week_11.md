@@ -15,3 +15,16 @@
 - 이를 **모델 기반 학습**
 - 앞서 사용한 k-NN은 모델 파라미터가 없고, 학습 데이터셋을 저장하는 것이 학습의 전부
 - 이를 **사례 기반 학습**
+₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
+
+⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ 
+## 2. 회귀 분석 (Regression Analysis)
+### 단순 선형 회귀 (Simple Linear Regression)
+- 𝑦 = 𝛽₀ + 𝛽₁𝓍                            
+- **종속변수 : 1, 독립변수 : 1**
+### 다중 선형 회귀 (Multiple Linear Regression 또는 Multivariable Linear Regression)
+- 𝑦 = 𝛽₀ + 𝛽₁𝑥₁ + 𝛽₂𝑥₂ + 𝛽₃𝑥₃ + ⋯ + 𝛽ₙ𝑥ₙ  
+- **종속변수 : 1, 독립변수 : n**
+### 다항 회귀 (Polynomial Regression)
+- 𝑦ᵢ = 𝛽₀ + 𝛽₁𝑥 + 𝛽₂𝑥² + 𝛽₃𝑥³ + ⋯ + 𝛽ₙ𝑥ⁿ 
+- **종속변수 : 1, 독립변수 : 1**
